@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd52b7ed.chunk.css",
+    "main.js": "/static/js/main.843ee9e6.chunk.js",
+    "main.js.map": "/static/js/main.843ee9e6.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.c086b112.chunk.js": "/static/js/2.c086b112.chunk.js",
+    "static/js/2.c086b112.chunk.js.map": "/static/js/2.c086b112.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.796c9acf454310691f6dda34fc4e005e.js": "/precache-manifest.796c9acf454310691f6dda34fc4e005e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cd52b7ed.chunk.css.map": "/static/css/main.cd52b7ed.chunk.css.map",
+    "static/media/1_gold-box.png": "/static/media/1_gold-box.aa542d21.png",
+    "static/media/2_gold-box.png": "/static/media/2_gold-box.2e3c0893.png",
+    "static/media/3_gold-box.png": "/static/media/3_gold-box.55f13bca.png",
+    "static/media/bukli.png": "/static/media/bukli.c0508bf7.png",
+    "static/media/index.css": "/static/media/energy.c7f8d477.png",
+    "static/media/firin.png": "/static/media/firin.04905933.png",
+    "static/media/hrizolit.png": "/static/media/hrizolit.c0c24600.png",
+    "static/media/margin.png": "/static/media/margin.ba919c10.png",
+    "static/media/vaarit.png": "/static/media/vaarit.64d0dce2.png"
+  }
+}

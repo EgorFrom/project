@@ -1,0 +1,373 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: scroll !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.carousel-item {
+	background: #e0c1b3;
+	height: 100vh;
+}
+.container {
+	height: 100%;
+}
+* {
+	outline-color: #A09ABC;
+}
+.btn-outline {
+	border: 2px solid #A09ABC;
+	color: #fbf4f5;
+	font-weight: 500;
+}
+.form-control:focus {
+  border-color: #a09abc99;
+  box-shadow: 0 0 0 0.2rem #a09abc99;
+}
+.btn:hover {
+	color: #fff;
+	background-color: #A09ABC;
+}
+.task {
+  margin-bottom: 5px;
+  width: 100%;
+	padding: 10px;
+  font-size: 1.15rem;
+  border: 1px solid #fff;
+  color: #846267;
+  border-radius: 2px;
+  text-align: center;
+}
+.gem {
+  font-size: 1.15rem;
+  text-align: left;
+  border-bottom: 1px solid #fff;
+}
+.gem-count {
+	float: right;
+}
+
+.locked {
+	position: relative;
+	z-index:1;
+	pointer-events: none;
+}
+
+.locked::after {
+	position: absolute;
+	content: '';
+	display: block;
+	top:0;left:0;right:0;bottom:0;
+	z-index:10;
+	width: 100%;
+	height: 100%;
+	background: rgba(102,99,118,0.5) url('locked-padlock.png') center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	cursor: not-allowed;
+  opacity: 0.65;
+}
+
+* {
+  transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+	font-size: 1.1rem;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fbf4f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+label {
+  color: #846267;
+}
+label:hover {
+  cursor: pointer;
+}
+#root {
+	width: 100%;
+	height: 100%;
+}
+.login_form {
+  width: 320px;
+  margin-top: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.login_title {
+	text-align: center;
+	display: block;
+	font-size: 3rem;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #a09abc99;
+  border-color: #a09abc99;
+}
+.btn {
+  background-color: #846267;
+  border-color: #846267;
+  color: #fff;
+}
+.btn:focus {
+  background-color: #755156fc !important;
+  border-color: #846267  !important;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #755156fc;
+  border-color: #846267;
+  color: #fff;
+}
+.login_btn__enter {
+	float: right;
+	min-width: 50%;
+}
+.login_btn__register {
+	background-color: transparent;
+	color: #755156fc;
+}
+.login_btn__cancel {
+  background-color: transparent;
+  border: none;
+  color: #846267;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+* {
+  outline-color: #A09ABC !important;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #fff;
+  background-color: #8d6d72;
+}
+.navbar {
+  background-color: #846267;
+}
+.navbar-toggler:focus {
+  border-color: #a09abc99;
+  box-shadow: 0 0 0 0.2rem #a09abc99;
+}
+.navbar-toggler:hover {
+  border-color: #a09abc99;
+  box-shadow: 0 0 0 0.2rem #a09abc99;
+}
+.form-control:focus {
+  border-color: #a09abc99;
+  box-shadow: 0 0 0 0.2rem #a09abc99;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,1);
+}
+.header_play, .navbar-light .navbar-nav .nav-link {
+  margin-right: 5px;
+  padding: 5px;
+  background: transparent;
+  color: #846267;
+  border: none;
+  padding: 15px 5px;
+}
+.header_play:hover, .navbar-light .navbar-nav .nav-link:hover {
+  background: transparent;
+  color: #846267;
+}
+.header_play:focus {
+  background: transparent;
+  color: #846267;
+}
+.IKnow {
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+.Start {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 3em;
+	color: #846267;
+	background-color: #fbf4f5;
+	border: none;
+	border-radius: 0;
+}
+.Start:hover {
+	background-color: #fbf4f5;
+  color: #846267;
+}
+.variant{
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.15rem;
+  border: 1px solid #fff;
+  color: #846267;
+  border-radius: 2px;
+  text-align: center;
+}
+.result-text, .result-text>div {
+  line-height: 2rem;
+  padding-top: 50px;
+  font-size: 1.9rem;
+}
+.stamina {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 10px;
+}
+
+.stamina-energy {
+  position: absolute;
+  left: 5%;
+  bottom: -45px;
+  height: 40px;
+  filter: invert(40%);
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  padding-top: 5px;
+  padding-left: 25px;
+}
+.stamina-energy_img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 40px;
+  background: transparent url(./energy.png) center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.close {
+  position: absolute;
+  right: -2px;
+  top: -8px;
+}
+.popup-content {
+  border-radius: 5px;
+  border: none;
+}
+.modal {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+.lot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: transparent;
+  border: 1px solid #846267;
+  margin-bottom: 10px;
+  margin-top: 10px;  
+  padding: 0;
+}
+.lot_cost span {
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-right: 5px;
+}
+.lot_cost {
+  padding: 5px;
+  line-height: 0.8rem;
+}
+.lot .lot_name {
+  background: #A09ABC;
+  color: #fff;
+  padding: 5px;
+}
+.lot .lot_name img{
+  transform: translateY(-2px);
+}
+.lot .lot_gemBlock {
+  display: inline-block;
+}
+.myPocketShop {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;  
+  background: #fbf4f5;
+}
+.myPocketShop_title {
+  background: #846267;
+  color: #fbf4f5;
+  padding-left: 5px;  
+}
+.myPocketShop_gems {
+  background: #fbf4f5;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.myPocketShop_gems .lot_gemBlock {
+  display: inline-block;
+}
+.module-lot .popup-content {
+  width: 80% !important;
+}
+.popup-btns {
+  position: relative;
+  margin-top: 10px;
+}
+.popup-btns .popup-btn {
+  background: transparent;
+  border: 2px solid #fbf4f5;
+  font-size: 0.9rem;
+  width: 40%;
+  padding: 5px;
+}
+.popup-btns .popup-btn_succes {
+  float: left;
+}
+.popup-btns .popup-btn_cancel {
+  float: right;
+}
